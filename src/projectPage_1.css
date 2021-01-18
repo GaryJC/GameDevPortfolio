@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+}
+
+.arrow{
+    font-size:3rem;
+    position: absolute;
+    left:1rem;
+    color:gray;
+}
+
+.overview {
+    height: 100vh;
+}
+
+.topView {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* The moving letters: https://codepen.io/uttammahat/pen/mXVOMQ */
+.topView .ml2 {
+    font-size: 2.5rem;
+    margin-top: 30vh;
+    color: gray;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.botView {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botView p {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+#dateView {
+    position: relative;
+    left: .5rem;
+}
+
+#roleView {
+    position: relative;
+    left: 2.5rem;
+    width:10rem;
+}
+
+.topSec {
+    display: block;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topBg {
+    background-color: lightcoral;
+    width: 90vw;
+    height: 90vh;
+    text-align: center;
+}
+
+.leftBg {
+    background-color: lightcyan;
+    width: 45vw;
+    height: 90vh;
+}
+
+.rightBg {
+    background-color: lightblue;
+    width: 45vw;
+    height: 90vh;
+}
+
+.unityCon {
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.buttomCon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    text-align: center;
+}
+
+.mayaCon,
+.cSharpCon {
+    text-align: center;
+    margin-top: 1rem;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.mayaIcon,
+.cSharpIcon,
+.unityIcon {
+    margin-top: 5rem;
+    width: 10vw;
+    position: relative;
+}
+
+.topBg:hover .unityIcon {
+    width: 11vw;
+}
+
+.leftBg:hover .cSharpIcon {
+    width: 11vw;
+}
+
+.rightBg:hover .mayaIcon {
+    width: 11vw;
+}
+
+.mayaIcon,
+.cSharpIcon,
+.unityIcon:hover {
+    cursor: pointer;
+}
+
+.topBg,
+.leftBg,
+.rightBg {
+    position: relative;
+}
+
+.unityVideo,
+.cSharpVideo,
+.mayaVideo {
+    width: 55vw;
+    position: absolute;
+    left: 3rem;
+    top: 6rem;
+    display: none;
+}
+
+@media(max-width:375px) {
+    .topView {
+        justify-content: space-between;
+        width: 90vw;
+        ;
+    }
+    .unityCon, .cSharpCon, .mayaCon{
+        width: 90vw;
+        margin-top:15rem;
+    }
+    .topView{
+        font-size:1.5rem;
+    }
+
+    .unityVideo, .mayaVideo, .cSharpVideo{
+        display: block;
+        width:90vw;
+        top:8rem;
+        left:0rem;
+    }
+
+    .leftBg{
+        width:90vw;
+    }
+
+    .rightBg{
+        width:90vw;
+    }
+}

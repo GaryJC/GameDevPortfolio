@@ -1,0 +1,215 @@
+body {
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Oswald', sans-serif;
+}
+
+.homepageTitle {
+    text-align: center;
+}
+
+.infoTitle {
+    font-size: 6rem;
+    position: absolute;
+    top: -1rem;
+    left: 2rem;
+    z-index: 1;
+}
+
+.infoBg {
+    width: 90vw;
+    /* background-color: #ffc30f; */
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    display: block;
+    position: relative;
+}
+
+#bioBg {
+    /* background-color:#6385a7; */
+    /* background-color: #a9ddd9; */
+    background-color: #a4d9d6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#proBg_1 {
+    /* background-color:#ff5733; */
+    background-color: #fdb35d;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#proBg_2 {
+    /* background-color:#ff5733; */
+    /* background-color:#6385a7; */
+    /* background-color:#a9ddd9; */
+    background-color: #6385a7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#conBg {
+    /* background-color: #c70039; */
+    background-color: #edb5bf;
+}
+
+.antLionVideo {
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    top: 5rem;
+    right: -60vw;
+}
+
+.missionXVideo {
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    top: 5rem;
+    left: -60vw;
+}
+
+.proCon_1 {
+    width: 25rem;
+    z-index: 1;
+    /* margin-top:10rem;
+    margin-left:5rem;
+    margin-right:3rem; */
+    position: absolute;
+    /* top:9rem; */
+    top: 14rem;
+    left: -60vw;
+    font-size: 1.1rem;
+}
+
+.proCon_2 {
+    width: 25rem;
+    z-index: 1;
+    /* margin-top:10rem;
+    margin-left:5rem;
+    margin-right:3rem; */
+    position: absolute;
+    /* top:9rem; */
+    top: 14rem;
+    right: -60vw;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.proCon_title {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.bioCon {
+    width: 35vw;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    display: none;
+    font-size: 1.1rem;
+}
+
+.bioCon_title {
+    font-size: 3rem;
+}
+
+.selfie {
+    width: 40vw;
+    height: 90vh;
+}
+
+.conImg {
+    width: 90vw;
+    height: auto;
+    position: absolute;
+    right: 0;
+}
+
+.contactInfo {
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20vh;
+}
+
+.contactInfo span {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    display: none;
+}
+
+#phone {
+    margin-top: 1rem;
+}
+
+#facebook {
+    margin-top: 1rem;
+}
+
+.more {
+    text-align: right;
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.proCon_1 .more a {
+    color: black;
+}
+
+.proCon_2 .more a {
+    color: white;
+}
+
+@media(max-width:375px) {
+    .selfie {
+        width: 70vw;
+        height: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 5vh;
+    }
+    .infoTitle {
+        font-size: 5rem;
+    }
+    .bioCon {
+        margin-top: -4rem;
+        width: 80vw;
+        display: block;
+    }
+    .proCon_1, .proCon_2 {
+        width: 80vw;
+        margin-top: 4rem;
+        left: 1rem;
+    }
+    .antLionVideo {
+        width: 90vw;
+        top: 4rem;
+        left: 0;
+    }
+    .missionXVideo {
+        top: 4rem;
+        left: 0;
+        width: 90vw;
+    }
+    .conImg {
+        width: 90vw;
+        height: 75vw;
+    }
+    .contactInfo {
+        width: 80vw;
+        margin-top: 20vh;
+    }
+    .contactInfo span {
+        display: inline;
+    }
+    #facebookName, #phoneNum {
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,46 @@
+body {
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Oswald', sans-serif;
+}
+
+.arrow{
+    font-size:3rem;
+    color:gray;
+}
+
+.infoTitle {
+    font-size: 6rem;
+}
+
+section {
+    border-bottom: thin black solid;
+}
+
+.blue,
+.yellow,
+.purple,
+.green {
+    width: 20vw;
+    height: 20vw;
+}
+
+.blue {
+    background-color: #6385a7;
+}
+
+.green {
+    background-color: #a4d9d6;
+}
+
+.purple {
+    background-color: #edb5bf;
+}
+
+.yellow {
+    background-color: #fdb35d;
+}
+
+.overview {
+    color: gray;
+    font-size: 2.5rem;
+}
